@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Feedback-UrlService
+  config:
+    import: "optional:configserver:http://localhost:8088"
